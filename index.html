@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body bgcolor="#f1f3f6">
+
+    <table border="0" width="100%" bgcolor="#2874f0">
+        <tr>
+            <td><img src="img/SR ICON.jpg" alt="" height="50px" width="60%" align="right"></td>
+            
+            <td width="50%"><input type="text" placeholder="search for product, brands and more..." style="width: 550px;height: 27px;">
+            <input type="button" value="Search" style="width: 65px;height: 25px;"></td>
+
+            <th><a style="text-decoration: none" href="SignUp.html"><font color="white"> Login & Signup</font></a></th>
+
+            <th><font color="white">More</font></th>
+
+            <th><img src="img/shopping-cart.png" alt="" height="25px"><font color="white">Cart</font></th>
+        </tr>
+    </table>
+    <table border="0"  width="100%" bgcolor="white" height="40px">
+        <tr>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Baby & Toys</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Art Supplies</p></a>
+                        <a href="#"><p>Remote Toys</p></a>
+                        <a href="#"><p>Dolls</p></a>
+                        <a href="#"><p>Tricycles</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Men</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>T-Shirts</p></a>
+                        <a href="#"><p>Shirts</p></a>
+                        <a href="#"><p>Pants</p></a>
+                        <a href="#"><p>Formal Shoes</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Women</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Earrings</p></a>
+                        <a href="#"><p>Sarees</p></a>
+                        <a href="#"><p>Makeup Kit</p></a>
+                        <a href="#"><p>Watches</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Tv & Applications</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Smart Tv's</p></a>
+                        <a href="#"><p>Washing Machines</p></a>
+                        <a href="#"><p>Air Conditioners</p></a>
+                        <a href="#"><p>Vacuum Cleaners</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Electronics</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Laptops</p></a>
+                        <a href="#"><p>Headphones</p></a>
+                        <a href="#"><p>Smartwatches</p></a>
+                        <a href="#"><p>Powerbanks</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Furniture</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Beds</p></a>
+                        <a href="#"><p>Sofa</p></a>
+                        <a href="#"><p>Dressing Tables</p></a>
+                        <a href="#"><p>Mattresses</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Sports Hub</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Footwears</p></a>
+                        <a href="#"><p>Racquets</p></a>
+                        <a href="#"><p>Bats & Balls</p></a>
+                        <a href="#"><p>Fitness</p></a>
+                    </div>
+                </div>
+            </th>
+            <th width="12.5%">
+                <div class="dropdown">
+                    <span>Grocery</span>
+                    <div class="dropdown-contant">
+                        <a href="#"><p>Dairy & Eggs</p></a>
+                        <a href="#"><p>Household Care</p></a>
+                        <a href="#"><p>Staples</p></a>
+                        <a href="#"><p>Snacks</p></a>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+    <div class="w-content w3-section" style="max-width:100%">
+        <img class="mySlides" src="img/banner.jpg" style="width:100%; height: 370px;" alt="">
+        <img class="mySlides" src="img/banner1.jpeg" style="width:100%; height: 370px;"   alt="">
+        <img class="mySlides" src="img/banner2.jpeg" style="width:100%; height: 370px;"  alt="">
+        <img class="mySlides" src="img/banner3.jpeg" style="width:100%; height: 370px;" alt="">
+    </div>
+    <script>
+        var myIndex=0;
+        carousel();
+        function carousel(){
+            var i;
+            var x=document.getElementsByClassName("mySlides");
+            for(i=0;i<x.length;i++){
+                x[i].style.display="none";
+            }
+            myIndex++;
+            if(myIndex>x.length){myIndex=1}
+            x[myIndex-1].style.display="block";
+            setTimeout(carousel,3000);
+        }
+      </script>
+    <br>
+    <table border="0"  width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5"><h2>Mobiles</h2><hr></td>
+        <tr>
+            <th><div class="zoom"><img src="img/mobile1.jpeg" alt="NA" width="70%" height="300px"></th></div>
+            <th><div class="zoom"><img src="img/mmobile2.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/mobile3.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/mobile4.jpeg" alt="NA" width="70%" height="300px" ></div></th>
+            <th><div class="zoom"><img src="img/mobile5.jpeg" alt="NA" width="70%" height="300px"></div></th>
+        </tr>
+        <th>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </th>
+        <th>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </th>
+        <th>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </th>
+        <th>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </th>
+        <th>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </th>
+        </tr>
+        <tr class="size">
+            <th>Price:<font color="green">69000/-</font></th>
+            <th>Price:<font color="green">60000/-</font></th>
+            <th>Price:<font color="green">32000/-</font></th>
+            <th>Price:<font color="green">29000/-</font></th>
+            <th>Price:<font color="green">17000/-</font></th>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0"  width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5"><h2>Earphones</h2><hr></td>
+        <tr>
+            <th><div class="zoom"><img src="img/earphone1.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/earphone2.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/earphone3.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/earphone4.jpeg" alt="NA" width="70%" height="300px" ></div></th>
+            <th><div class="zoom"><img src="img/earphone5.jpeg" alt="NA" width="70%" height="300px"></div></th>
+        </tr>
+        <tr>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+        </tr>
+        <tr class="size">
+            <th>Price:<font color="green">2300/-</font></th>
+            <th>Price:<font color="green">1050/-</font></th>
+            <th>Price:<font color="green">999/-</font></th>
+            <th>Price:<font color="green">780/-</font></th>
+            <th>Price:<font color="green">1500/-</font></th>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0"  width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5"><h2>Bags</h2><hr></td>
+        <tr>
+            <th><div class="zoom"><img src="img/bags1.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/bags2.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/bags3.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/bags4.jpeg" alt="NA" width="70%" height="300px" ></div></th>
+            <th><div class="zoom"><img src="img/bags5.jpeg" alt="NA" width="70%" height="300px"></div></th>
+        </tr>
+        <tr>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+        </tr>
+        <tr class="size">
+            <th>Price:<font color="green">3500/-</font></th>
+            <th>Price:<font color="green">2000/-</font></th>
+            <th>Price:<font color="green">2989/-</font></th>
+            <th>Price:<font color="green">1999/-</font></th>
+            <th>Price:<font color="green">2500/-</font></th>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0"  width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5"><h2>Shoes</h2><hr></td>
+        <tr>
+            <th><div class="zoom"><img src="img/shoes1.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/shoes2.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/shoes3.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/shoes4.jpeg" alt="NA" width="70%" height="300px" ></div></th>
+            <th><div class="zoom"><img src="img/shoes5.jpeg" alt="NA" width="70%" height="300px"></div></th>
+        </tr>
+        <tr>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+        </tr>
+        <tr class="size">
+            <th>Price:<font color="green">720/-</font></th>
+            <th>Price:<font color="green">980/-</font></th>
+            <th>Price:<font color="green">1040/-</font></th>
+            <th>Price:<font color="green">1999/-</font></th>
+            <th>Price:<font color="green">1500/-</font></th>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0"  width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5"><h2>Spoons</h2><hr></td>
+        <tr>
+            <th><div class="zoom"><img src="img/spoons1.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/spoons2.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/spoons3.jpeg" alt="NA" width="70%" height="300px"></div></th>
+            <th><div class="zoom"><img src="img/spoons4.jpeg" alt="NA" width="70%" height="300px" ></div></th>
+            <th><div class="zoom"><img src="img/spoons5.jpeg" alt="NA" width="70%" height="300px"></div></th>
+        </tr>
+        <tr>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </th>
+            <th>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </th>
+        </tr>
+        <tr class="size">
+            <th>Price:<font color="green">550/-</font></th>
+            <th>Price:<font color="green">600/-</font></th>
+            <th>Price:<font color="green">350/-</font></th>
+            <th>Price:<font color="green">999/-</font></th>
+            <th>Price:<font color="green">1045/-</font></th>
+        </tr>
+    </table>
+    <br><hr>
+    <div class="social-media">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <h5 align="center">Copyright @ 2024 Shopping</h5>
+    </div>
+</body>
+</html>
