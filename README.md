@@ -17,3 +17,4 @@ free for everyone to use in any good purposes.
 ![3](https://github.com/Raviteja4467/Basic-Shopping-website-using-HTML-CSS-JavaScript/assets/123094230/691dc5e3-f07d-421b-a898-8224db44e478)
 ![4](https://github.com/Raviteja4467/Basic-Shopping-website-using-HTML-CSS-JavaScript/assets/123094230/d1b3f4df-2496-44de-a758-89dfce4dc738)
 ![5](https://github.com/Raviteja4467/Basic-Shopping-website-using-HTML-CSS-JavaScript/assets/123094230/4900f88c-5627-4460-a05b-e83eaa996c7d)
+![6](https://github.com/Raviteja4467/Basic-Shopping-website-using-HTML-CSS-JavaScript/assets/123094230/e9ad3964-0ad4-43ef-8b59-476863cb2ca3)
